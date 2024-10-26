@@ -3,7 +3,7 @@
 	height: calc(
 		100vh - 64px
 	); /* Adjust this value to match the height of your navigation bar */
-	border: 1px solid yellow;
+	/* border: 1px solid yellow; */
 }
 
 .home-details {
@@ -35,7 +35,7 @@ span {
 }
 
 .home.contactButton {
-    max-width: 95%;
+	max-width: 95%;
 	position: absolute; /* Position the button absolutely */
 	bottom: -100px; /* Start the button out of the viewport */
 	left: 50%;
