@@ -23,10 +23,7 @@ const Home = () => {
 	return (
 		<div className="home-container">
 			<div className="img-container">
-				{/* <img
-					src="https://static.wixstatic.com/media/f6010e_ec6639c6cacf407d94a9a388870517cf~mv2.jpg/v1/fit/w_716,h_888,q_90/f6010e_ec6639c6cacf407d94a9a388870517cf~mv2.jpg"
-					alt=""
-				/> */}
+		
 				<div className="home-details">
 					<div className={`name-details ${visible ? 'visible' : ''}`}>
 						{/* <div>Hi, I am</div> */}

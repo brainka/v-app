@@ -44,7 +44,7 @@ span {
 }
 
 .home.contactButton.buttonVisible {
-	bottom: 50px; /* Bring the button into view */
+	bottom: 10px; /* Bring the button into view */
 	transform: translate(-50%, 0); /* Ensure it stays centered */
 }
 
