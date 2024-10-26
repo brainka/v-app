@@ -1,0 +1,97 @@
+.home-container {
+	position: relative; /* Ensure the container is the reference for absolute positioning */
+	height: calc(
+		100vh - 64px
+	); /* Adjust this value to match the height of your navigation bar */
+	border: 1px solid yellow;
+}
+
+.home-details {
+	padding: 20px;
+}
+
+.name-details {
+	font-size: 20px;
+	color: white;
+	transform: translate(-100%, 0%);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+	opacity: 1;
+}
+
+span {
+	color: hsl(216, 100%, 72%);
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.home-details > .name-details.visible {
+	opacity: 1;
+	transform: translate(0%, 0);
+}
+
+.home-details.visible {
+	opacity: 1;
+	transform: translate(30%, 0);
+}
+
+.home.contactButton {
+    max-width: 95%;
+	position: absolute; /* Position the button absolutely */
+	bottom: -100px; /* Start the button out of the viewport */
+	left: 50%;
+	transform: translate(-50%, 0); /* Center the button horizontally */
+	transition: transform 2s ease-in-out, bottom 2s ease-in-out;
+}
+
+.home.contactButton.buttonVisible {
+	bottom: 50px; /* Bring the button into view */
+	transform: translate(-50%, 0); /* Ensure it stays centered */
+}
+
+/* @keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+    animation: zoomIn 2s ease-in-out;
+} */
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.img-container {
+	background-image: url('/src/assets/vernon.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: fadeIn 2s ease-in-out;
+	height: calc(
+		100vh - 64px
+	); /* Adjust this value to match the height of your navigation bar */
+}
+
+.img-container > img {
+	max-inline-size: 100%;
+	block-size: auto;
+	object-fit: cover;
+	animation: fadeIn 2s ease-in-out;
+	width: 100vw;
+	height: 100%;
+	/* border: 1px solid rgb(0, 76, 255); */
+}

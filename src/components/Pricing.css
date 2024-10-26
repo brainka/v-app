@@ -1,0 +1,44 @@
+.pricing-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 30px;
+}
+
+.pricing-plan {
+	background-color: #171717;
+	border-radius: 5px;
+	padding: 20px;
+	height: 500px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.pricing-plan > ul li {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.pricing-frequency > p > b {
+	font-size: 24px;
+}
+
+.pricing-plan > ul > li {
+	margin-bottom: 5px;
+}
+
+.pricing-plan > h2 {
+	font-size: 16px;
+	color: #ffc841;
+	color: hsl(216, 100%, 72%);;
+
+	/* background-color: white;
+	width: max-content;
+	color: black;
+	padding: 0 5px;
+	border-radius: 2px;
+    font-weight: 500; */
+}
