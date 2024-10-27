@@ -84,7 +84,7 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	animation: fadeIn 2s ease-in-out;
-	height: 100%;
+	height: calc(100% - 64px);
 	text-align: center;
 	font-size: 40px;
 	/* height: 100vh;
