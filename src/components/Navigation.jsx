@@ -5,7 +5,7 @@ import { IoCloseOutline } from 'react-icons/io5';
 import { useState } from 'react';
 import bicepLogo from '../assets/flexed-biceps-svgrepo-com.svg';
 
-const Navigation = () => {
+const Navigation = ({ onLogoClick }) => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const navigate = useNavigate();
 
@@ -23,7 +23,7 @@ const Navigation = () => {
 	return (
 		<div className="nav-container">
 			<div className="nav-menu-mobile">
-				<Link to="/" id="logo">
+				<Link to="/" id="logo" onClick={onLogoClick}>
 					<img src={bicepLogo} alt="" />
 				</Link>
 				<div className="nav-menu">
@@ -47,7 +47,12 @@ const Navigation = () => {
 						aria-labelledby="menubutton"
 						className={`${isMenuOpen ? 'active' : ''}`}
 					>
-						<li role="presentation" tabIndex={0}  aria-label="about me" onClick={handleMenuSelection}>
+						<li
+							role="presentation"
+							tabIndex={0}
+							aria-label="about me"
+							onClick={handleMenuSelection}
+						>
 							<a role="menuitem">About Me</a>
 						</li>
 						<li role="presentation" tabIndex={0} onClick={handleMenuSelection}>

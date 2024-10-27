@@ -2,7 +2,7 @@ import './Pricing.css';
 
 const Pricing = () => {
 	return (
-		<div className="pricing-container">
+		<div className="pricing-container mt-64">
 			<section className="pricing-plan">
 				<h2>ONLINE COACHING</h2>
 				<div className="pricing-frequency">

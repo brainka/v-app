@@ -74,7 +74,7 @@ form > div input {
 	justify-content: center;
 	font-family: inherit;
 	/* min-width: 148px; */
-    /* max-width: 400px; */
+	/* max-width: 400px; */
 	padding: 15px 22px;
 	font-weight: 500;
 	font-size: 16px;
@@ -84,10 +84,21 @@ form > div input {
 	color: white;
 	box-shadow: none; /* No shadow by default */
 	transition: box-shadow 0.3s ease; /* Smooth transition for focus effect */
+
+	border-radius: 20px;
 }
 
 .contactButton:focus {
 	/* outline: 1px solid red; */
 	outline: none;
 	box-shadow: 0 0 0 3px rgba(255, 87, 51, 0.5); /* Custom focus effect using box-shadow */
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+video {
+	width: 100%;
+	object-fit: cover;
 }
