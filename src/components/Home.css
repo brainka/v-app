@@ -79,13 +79,16 @@ img {
 }
 
 .img-container {
-	/* background-image: url('/src/assets/vernon.jpg');
+	background-image: url('/src/assets/vernon.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	animation: fadeIn 2s ease-in-out;
-	height: calc(100dvh - 64px); */
-	/* height: 100vh; */
+	height: 100%;
+	text-align: center;
+	font-size: 40px;
+	/* height: 100vh;
+	
 }
 
 .img-container > img {
