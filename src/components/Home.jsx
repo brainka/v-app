@@ -1,7 +1,7 @@
 import './Home.css';
 import { useState, useEffect } from 'react';
 import vernon from '../assets/homePageVideo.mp4';
-import { HiArrowRight } from 'react-icons/hi2';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 	const [visible, setVisible] = useState(false);
@@ -29,7 +29,7 @@ const Home = () => {
 				{/* <div className="buttonContainer">
 					<button className="contactButton homeButton">GET STARTED</button>
 				</div> */}
-				<a href="" className="buttonGetStarted">
+				<Link to="/contact" className="buttonGetStarted">
 					<svg
 						className="buttonArrow"
 						width="64px"
@@ -57,7 +57,7 @@ const Home = () => {
 					</svg>
 
 					<div>GET STARTED</div>
-				</a>
+				</Link>
 				<p>
 					I work with individuals at every level who are committed to building
 					strength, improving movement, and enhancing fitness—whether through
