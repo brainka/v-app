@@ -1,6 +1,7 @@
 import './Home.css';
 import { useState, useEffect } from 'react';
 import vernon from '../assets/homePageVideo.mp4';
+import { HiArrowRight } from 'react-icons/hi2';
 
 const Home = () => {
 	const [visible, setVisible] = useState(false);
@@ -25,11 +26,38 @@ const Home = () => {
 		<div className="home-container mt-64">
 			<div className="home-wrapper">
 				<h1>FOR THOSE COMMITTED TO SERIOUS TRAINING</h1>
-				<div className="buttonContainer">
-					<button className="contactButton homeButton">
-						LEARN MORE | GET STARTED
-					</button>
-				</div>
+				{/* <div className="buttonContainer">
+					<button className="contactButton homeButton">GET STARTED</button>
+				</div> */}
+				<a href="" className="buttonGetStarted">
+					<svg
+						className="buttonArrow"
+						width="64px"
+						height="64px"
+						viewBox="-6.48 -6.48 36.96 36.96"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+						<g
+							id="SVGRepo_tracerCarrier"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						></g>
+						<g id="SVGRepo_iconCarrier">
+							{' '}
+							<path
+								d="M4 12H20M20 12L14 6M20 12L14 18"
+								stroke="#ffffff"
+								stroke-width="1.5"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							></path>{' '}
+						</g>
+					</svg>
+
+					<div>GET STARTED</div>
+				</a>
 				<p>
 					I work with individuals at every level who are committed to building
 					strength, improving movement, and enhancing fitness—whether through

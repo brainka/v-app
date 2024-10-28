@@ -1,0 +1,11 @@
+h2 {
+	color: #0569ff;
+}
+
+.aboutme {
+	padding: 0 10px;
+}
+
+.aboutme > ul li {
+	font-size: 16px;
+}

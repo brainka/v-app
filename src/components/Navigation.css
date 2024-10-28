@@ -19,7 +19,7 @@
 	opacity: 0;
 	visibility: hidden;
 	position: fixed;
-	top: 63px;
+	top: 64px;
 	right: 0;
 	width: 100%;
 	height: 100%;
@@ -36,7 +36,8 @@
 }
 
 #menu > li {
-	padding: 16px 20px;
+	padding: 25px 20px;
+	cursor: pointer;
 }
 
 .nav-menu-mobile li:not(:last-child) {

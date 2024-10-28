@@ -133,3 +133,22 @@ h1 {
 	letter-spacing: 2px;
 	margin: 0 10px;
 }
+
+.buttonArrow {
+	border-radius: 50%;
+	/* border: 1px solid yellow; */
+	width: 49px;
+	height: 49px;
+	background-color: #0569ff;
+}
+
+.buttonGetStarted {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.buttonGetStarted > div {
+	color: white;
+}

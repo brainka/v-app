@@ -23,10 +23,10 @@ const Pricing = () => {
 			</section>
 
 			<section className="pricing-plan">
-				<h2>ONLINE COACHING</h2>
+				<h2>ANOTHER COACHING OPTION</h2>
 				<div className="pricing-frequency">
 					<p>
-						<b>$40 /week</b>
+						<b>$50 /week</b>
 					</p>
 					<p>billed weekly</p>
 				</div>
@@ -42,10 +42,10 @@ const Pricing = () => {
 			</section>
 
 			<section className="pricing-plan">
-				<h2>ONLINE COACHING</h2>
+				<h2>SECOND COACHING OPTION</h2>
 				<div className="pricing-frequency">
 					<p>
-						<b>$40 /week</b>
+						<b>$60 /week</b>
 					</p>
 					<p>billed weekly</p>
 				</div>

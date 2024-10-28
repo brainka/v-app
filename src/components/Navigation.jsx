@@ -2,14 +2,17 @@ import './Navigation.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoCloseOutline } from 'react-icons/io5';
-import { useState } from 'react';
 import bicepLogo from '../assets/flexed-biceps-svgrepo-com.svg';
 
-const Navigation = ({ onLogoClick }) => {
-	const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Navigation = ({ onLogoClick, isMenuOpen, setIsMenuOpen }) => {
+	// const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const navigate = useNavigate();
 
+	// console.log(handleCloseMenu);
+
 	function toggleMenu() {
+		// handleCloseMenu && setIsMenuOpen(false);
+
 		setIsMenuOpen(!isMenuOpen);
 	}
 
